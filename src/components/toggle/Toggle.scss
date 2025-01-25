@@ -1,0 +1,107 @@
+.toggle {
+  background-color: #274c5b;
+  padding: 100px 0;
+  margin-bottom: 70px;
+  .container {
+    width: 100%;
+  }
+  &-text {
+    font-size: 17px;
+    color: #7eb693;
+  }
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    &-title {
+      font-size: 47px;
+      color: #fff;
+    }
+    &-btn {
+      display: flex;
+      align-items: center;
+      background-color: #efd372;
+      border: none;
+      outline: none;
+      padding: 6px 20px;
+      font-size: 18px;
+      gap: 5px;
+      border-radius: 10px;
+      font-weight: 700;
+      color: #274c5b;
+    }
+  }
+
+
+
+
+  &__cards {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+
+    gap: 12px;
+    &-card {
+      background-color: #fff;
+      padding: 8px;
+      box-shadow: 0px 3px 10px 3px rgba(31, 21, 21, 0.198);
+      width: 260px;
+      height: 335px;
+      border-radius: 10px;
+      &:hover {
+        box-shadow: 0px 3px 18px 3px rgba(9, 12, 32, 0.736);
+        transition: all 0.5s;
+      }
+      p {
+        width: 80px;
+        padding-top: 2px;
+        height: 20px;
+        border-radius: 3px;
+        background-color: #274c5b;
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 15px;
+        text-align: center;
+        color: #ffffff;
+      }
+      h2 {
+        font-family: Roboto;
+        text-align: start;
+        font-size: 18px;
+        font-weight: 800;
+        color: #274c5b;
+        border-bottom: 1px solid #dedddd;
+      }
+    }
+    &-bgc {
+      img {
+        width: 250px;
+        height: 250px;
+      }
+    }
+    &-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      span {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        p {
+          width: 35px;
+          color: #b8b8b8;
+          background-color: #fff;
+        }
+        h3 {
+          font-family: Open Sans;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 18px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
